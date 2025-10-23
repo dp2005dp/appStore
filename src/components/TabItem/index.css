@@ -1,0 +1,15 @@
+.tap-text-button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #7b8794;
+  font-family: 'roboto';
+  font-size: 20px;
+  cursor: pointer;
+}
+.margin {
+  margin-left: 20px;
+}
+.active-Tab_button {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
