@@ -338,7 +338,7 @@ class AppStore extends Component {
 
     return (
       <div className="app-container">
-        <h1 className="main-heading">App Store</h1>
+        <h1 className="main-heading">App Store Item</h1>
         <div className="search-And-search-icon-container">
           <input
             type="search"
