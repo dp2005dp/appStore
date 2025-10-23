@@ -343,7 +343,7 @@ class AppStore extends Component {
           <input
             type="search"
             className="search-eelement"
-            placeholder="Search"
+            placeholder="SearchElement" 
             onChange={this.searchApp}
           />
           <div className="search-icon-container">
