@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .main-heading {
+    color: #638C99;
     font-size: 35px;
   }
 }
