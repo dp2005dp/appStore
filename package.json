@@ -1,5 +1,5 @@
 {
-  "name": "myreact",
+  "name": "appstore",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://dp2005dp.github.io/appStore",
@@ -20,6 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   },
   "eslintConfig": {
     "extends": [
