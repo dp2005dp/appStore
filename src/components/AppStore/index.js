@@ -315,9 +315,9 @@ class AppStore extends Component {
   }
 
   renderNoAppsView = () => (
-    <>
+    <div className="no-apps-container">
       <p className="no-apps-content ">No Apps</p>
-    </>
+    </div>
   )
 
   renderAppsView = () => {

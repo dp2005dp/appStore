@@ -1,9 +1,10 @@
 .app-container {
+  min-height: 130vh;
   background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .app-store-container {
@@ -17,6 +18,12 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 35px;
+  }
+}
+
 .search-eelement {
   height: 40px;
   width: 300px;
@@ -28,7 +35,13 @@
   border-width: 0px;
   padding: 10px;
 }
-
+ 
+@media screen and (max-width: 768px) {
+  .search-eelement {
+     height: 30px;
+     width: 200px;
+  }
+}
 .search-icon {
   height: 20px;
   width: 20px;
@@ -43,17 +56,26 @@
   border-radius: 15px;
   border: 2px solid #7b8794;
   margin-bottom: 50px;
+  
 }
 
-
+@media screen and (max-width: 768px) {
+  .search-responsive-container {
+    height: 35px;
+    width: 250px;
+  }
+}
 .tap-iteam-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 15px;
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 .app-itam-container {
+  width: 60vw;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -61,9 +83,19 @@
   align-items: center;
   margin-top: 15px;
   flex-wrap: wrap;
-  margin-left: 15px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-itam-container{
+
+    width: 80vw;
+  }
 }
 .no-apps-content {
+ 
   color: #1e293b;
   font-family: 'Bree Serif';
   font-size: 50px;
@@ -71,7 +103,14 @@
   text-align: center;
   margin-top: 50px;
 }
+
 .app-list-conatiner {
-  height: 100vh;
-  width: 60vw;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-self: center; 
+}
+.no-apps-container{
+   height: 80vh;
 }
