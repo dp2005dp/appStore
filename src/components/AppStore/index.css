@@ -16,49 +16,36 @@
   font-size: 45px;
   font-weight: bold;
 }
-.search-And-search-icon-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 .search-eelement {
   height: 40px;
   width: 300px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  color: #7b8794;
+  color: #000000;
   font-family: 'roboto';
-  font-size: 15px;
+  font-size: 20px;
   background-color: transparent;
   outline: none;
-  border-top: 2px solid #7b8794;
-  border-bottom: 2px solid #7b8794;
-  border-right: transparent;
+  border-width: 0px;
   padding: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
+
 .search-icon {
   height: 20px;
   width: 20px;
   cursor: pointer;
 }
-.search-icon-container {
-  height: 38px;
-  width: 40px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: transparent;
-  border-right: 2px solid #7b8794;
-  border-top: 2px solid #7b8794;
-  border-bottom: 2px solid #7b8794;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.search-responsive-container {
+  height: 45px;
+  width: 350px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  border-radius: 15px;
+  border: 2px solid #7b8794;
+  margin-bottom: 50px;
 }
+
+
 .tap-iteam-container {
   display: flex;
   flex-direction: row;
@@ -79,9 +66,12 @@
 .no-apps-content {
   color: #1e293b;
   font-family: 'Bree Serif';
-  font-size: 25px;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
+  margin-top: 50px;
 }
 .app-list-conatiner {
-  width: 850px;
+  height: 100vh;
+  width: 60vw;
 }

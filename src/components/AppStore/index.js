@@ -338,21 +338,21 @@ class AppStore extends Component {
 
     return (
       <div className="app-container">
-        <h1 className="main-heading">App Store Item</h1>
-        <div className="search-And-search-icon-container">
+        <h1 className="main-heading">App Store</h1>
+        <div className="search-responsive-container">
           <input
             type="search"
             className="search-eelement"
-            placeholder="SearchElement" 
+            placeholder="Search" 
             onChange={this.searchApp}
           />
-          <div className="search-icon-container">
+        
             <img
               src="https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png"
               className="search-icon"
               alt="search icon"
             />
-          </div>
+          
         </div>
         <ul className="tap-iteam-container">
           {tabsList.map(eachTapItem => (
